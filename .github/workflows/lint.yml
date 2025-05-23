@@ -2,10 +2,10 @@ name: "Lint Python code"
 on:
   push: # Only execute pipeline when someone pushes a commit to these branches
     branches:
-      -main
+      - main
   pull_request:
     branches:
-      -main
+      - main
 jobs:
   lint: # Name of the job
     runs-on: ubuntu-latest
